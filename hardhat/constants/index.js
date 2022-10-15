@@ -1,3 +1,3 @@
-const WHITELIST_CONTRACT_ADDRESS = "0x5F7ca3ee624a7a8E3bD4075e5F8bC670bD6E574b";
-const METADATA_URL = "https://nft-collection-tawny-rho.vercel.app/api/";
+const WHITELIST_CONTRACT_ADDRESS = "0x407dc2c01495F9DB7b5834D3FF120ec5bad1AF3b";
+const METADATA_URL = "http://localhost:3000/api/";
 module.exports = { WHITELIST_CONTRACT_ADDRESS, METADATA_URL };

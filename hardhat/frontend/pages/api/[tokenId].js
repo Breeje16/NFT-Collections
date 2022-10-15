@@ -9,8 +9,8 @@ export default function handler(req, res) {
     // when sending back the response from the api
     // More info can be found here: https://docs.opensea.io/docs/metadata-standards
     res.status(200).json({
-      name: "Crypto Dev #" + tokenId,
-      description: "Crypto Dev is a collection of developers in crypto",
+      name: "Sportz Fans #" + tokenId,
+      description: "Sportz Fans is a collection of Sports NFTs in crypto",
       image: image_url + tokenId + ".svg",
     });
   }
